@@ -13,13 +13,11 @@ app.set('view engine', 'php');
 // routing all .php file to php-express
 app.all(/.+\.php$/, phpExpress.router);
 
-var server = app.listen(80, function () {
-      console.log(``);
-    console.log(`----------------------------------------------------------------------------------`);
-    console.log(`----------------------------------------------------------------------------------`);
+app.listen(80, function () {
     console.log(``);
-    console.log(`Server running on http://localhost/`);
+    console.log(`--------------------------------------`);
     console.log(``);
-    console.log(`----------------------------------------------------------------------------------`);
-    console.log(`----------------------------------------------------------------------------------`);
+    console.log(`Server is running on http://localhost/`);
+    console.log(``);
+    console.log(`--------------------------------------`);
 });
