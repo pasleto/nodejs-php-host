@@ -1,9 +1,6 @@
 var express = require('express');
 var app = express();
-
-var phpExpress = require('php-express')({
-  binPath: 'php'
-});
+var phpExpress = require('php-express')({binPath: 'php'});
 
 // set view engine to php-express
 app.set('views', './views');
