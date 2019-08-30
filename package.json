@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-php-host",
+  "version": "1.0.0",
+  "description": "NodeJS host for PHP",
+  "main": "nodejs-php-host.js",
+  "scripts": {
+    "start": "node nodejs-php-host.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Tomáš Pásler",
+    "email": "tomas.pasler@gmail.com",
+    "url": "https://github.com/pasleto"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/pasleto/nodejs-php-host"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "php-express": "0.0.3"
+  }
+}
