@@ -14,10 +14,7 @@ app.set('view engine', 'php');
 app.all(/.+\.php$/, phpExpress.router);
 
 app.listen(80, function () {
-    console.log(``);
     console.log(`--------------------------------------`);
-    console.log(``);
     console.log(`Server is running on http://localhost/`);
-    console.log(``);
     console.log(`--------------------------------------`);
 });
