@@ -1,9 +1,8 @@
 
 ---
 # NodeJS host for PHP
-**Author:** Tomáš Pásler - github.com/pasleto
-
-**NodeJS application for hosting .php files.**
+### **Author:** Tomáš Pásler - github.com/pasleto
+### **NodeJS application for hosting .php files.**
 ---
 ## To run application:
 * `git clone https://github.com/pasleto/nodejs-php-host.git` for clone this project.
