@@ -1,7 +1,7 @@
 {
   "name": "nodejs-php-host",
-  "version": "1.0.0",
-  "description": "NodeJS host for PHP",
+  "version": "1.1.0",
+  "description": "NodeJS host for PHP edited verison. Original by Tomáš Pásler",
   "main": "nodejs-php-host.js",
   "scripts": {
     "start": "node nodejs-php-host.js",
@@ -9,9 +9,8 @@
   },
   "keywords": [],
   "author": {
-    "name": "Tomáš Pásler",
-    "email": "tomas.pasler@gmail.com",
-    "url": "https://github.com/pasleto"
+    "name": "Lukáš Bařitpán",
+    "email": "lukasbartipan@gmail.com"
   },
   "license": "MIT",
   "repository": {
